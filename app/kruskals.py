@@ -1,8 +1,9 @@
+from app.minimalSpanningTreeAlgorithmTemplate import *
 from app.graph import *
 from app.dfs import *
 import math
 
-class KrusKal:
+class KrusKal(MinimalSpanningTreeAlgorithmTemplate):
 
     def minimalSpanningTree(self, graph: Graph) -> Graph:
         minimalTree = Graph()

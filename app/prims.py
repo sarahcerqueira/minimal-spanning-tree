@@ -1,7 +1,8 @@
+from app.minimalSpanningTreeAlgorithmTemplate import *
 from app.graph import *
 import math
 
-class Prims:
+class Prims(MinimalSpanningTreeAlgorithmTemplate):
     
     def minimalSpanningTree(self, graph: Graph) -> Graph:
         minimalTree = Graph()
